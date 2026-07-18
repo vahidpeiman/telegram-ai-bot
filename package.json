@@ -1,0 +1,13 @@
+{
+  "name": "telegram-ai-bot",
+  "version": "1.0.0",
+  "description": "Telegram AI Chatbot on Cloudflare Workers using Llama 3.3 70B and Whisper",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
